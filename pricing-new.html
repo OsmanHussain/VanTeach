@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>VanTeach|Browse courses</title>
+    <link rel="icon" type="image/png" href="./assets/img/vanTeach-circle.png"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Css assets-->
@@ -24,29 +25,27 @@
     <div class="teachable-v20">
         <div class="discover-navbar sticky">
             <a href="./index.html">
-                <img style="width: 195px ; height: 85px; margin-left: -15px ; margin-top: 1px;" src="./assets/img/final-logo-header-c.png">
+                <img style="width: 240px ; height: 110px; margin-left: -17px ; margin-top: -13px;" src="./assets/img/final-logo-header-c.png">
             </a>
             <div class="discover-navbar-wrapper">
                 <div data-w-id="5d8468ff-caf7-d8e2-56be-c2c1c34cf1b3" class="discover-navbar-toggle">
                     <div>Categories</div>
                     <div class="icon-2 w-icon-dropdown-toggle"></div>
                 </div>
-                <a href="pricing-new.html" class="discover-navbar-link w-inline-block">
+                <a href="pricing-new.html" class="discover-navbar-link w-inline-block linkin">
                     <div class="discover-navbar-link-text">Pricing</div>
                 </a>
             </div>
             <div class="discover-navbar-wrapper discover-navbar-wrapper-left">
                     <div class="dropdown">
-                        <div class="fa fa-user-o dropbtn" aria-hidden="true" style="font-size: 40px; color: rgb(70, 68, 68); font-weight: 40;">
+                        <!--<div class="fa fa-user-o dropbtn" aria-hidden="true" style="font-size: 40px; color: rgb(70, 68, 68); font-weight: 40;">
                             <div class="dropdown-content">
-                                <a href="./profile-page.html">My Learning</a>
-                                <a href="#">My Subscription</a>
-                                <a href="#">Change password</a>
-                                <a href="#">Help</a>
-                                <a href="#">Logout</a>
+                            <a href="#">My Account</a>
+                            <a href="./profile-page.html">My Learning</a>
+                            <a href="#">Logout</a>
                             </div>
-                        </div>
-                    <!--<div class="discover-navbar-link-text">Login</div>-->
+                        </div>-->
+                    <div class="discover-navbar-link-text"><a href="./login.html" class="linkin">Login</a></div>
                     </div>
             </div>
             <div class="discover-navbar-submenu" >
@@ -178,7 +177,7 @@
         </section><br><br><br>
         <!--End of PricingTab2.0-->
         <section>
-            <div class="module module--box chapter-carousel  chapter-carousel--50x50-background" id="carousel" data-module-id="carousel" data-module-partial="chapter-carousel" data-module-label="Image 50/50 Carousel">
+            <!--<div class="module module--box chapter-carousel  chapter-carousel--50x50-background" id="carousel" data-module-id="carousel" data-module-partial="chapter-carousel" data-module-label="Image 50/50 Carousel">
                 <div class="chapter-carousel__frame only-desktop-tablet ng-scope" ng-controller="CarouselController as carousel" ng-init="carousel.init()">
                     <div class="chapter-carousel__media" carousel="">
                         <div class="chapter-carousel__media__slide chapter-carousel__media__slide--active chapter-carousel__media__slide--previous" slide="" ng-class="{
@@ -229,7 +228,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
             <!--THREE-UP STARTS-->
             <div class="module module--space-bottom three-up" id="three-touts" data-module-id="three-touts" data-module-partial="three-up" data-module-label="Columns 3">
                 <div class="three-up__frame">
@@ -253,12 +252,38 @@
                 </div>
             </div>
             <!--THREE-UP ENDS-->
-            <div class="module module--box call-to-action  call-to-action--green-light" id="sign-up-today" data-module-id="sign-up-today" data-module-partial="call-to-action" data-module-label="Call to Action">
+            <!--<div class="module module--box call-to-action  call-to-action--green-light" id="sign-up-today" data-module-id="sign-up-today" data-module-partial="call-to-action" data-module-label="Call to Action">
                 <div class="call-to-action__frame">
                     <div class="call-to-action__chapter">
                         <div class="call-to-action__chapter__title" role="heading" aria-level="2"><span class="text"> Share what you know.™ <br data-desktop-tablet=""> <span data-strong="">Sign up free today</span>. </span>
                         </div>
                         <div class="call-to-action__chapter__cta"><a href="https://sso.Athlean.com/secure/Athlean_accounts/sign_up" class="cta--primary" tracking="" tracking-verb="click" tracking-label="Get Started" tracking-url="https://sso.Athlean.com/secure/Athlean_accounts/sign_up"> Get Started </a></div>
+                    </div>
+                </div>
+            </div>-->
+            <div class="cta" style="padding-top: 0px;">
+                <div class="cta-wrapper">
+                    <div class="container cta-flex">
+                        <div class="cta-item-small">
+                            <h1 class="cta-h1">Keep up to date with the latest courses</h1>
+                            <p class="paragraph-14">Enter your email address below to receive a new free courses every week.<br></p>
+                            <div id="cta-form" class="w-form">
+                                <form id="wf-form-Email-Form-1" name="wf-form-Email-Form-1" data-name="Email Form 1" redirect="/courses/free-courses" data-redirect="/courses/free-courses" class="form"><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Your email address" id="email-2" required=""><input type="submit" value="Get Free Courses" data-wait="Please wait..."
+                                        class="btn-submit subscribe-form-cta-embedded w-button"></form>
+                                <div class="success-message-2 w-form-done">
+                                    <div>Your discount code:<br><strong>DISCOVER2XK9E1</strong></div>
+                                </div>
+                                <div class="error-message-2 w-form-fail">
+                                    <div>Oops! Something went wrong while submitting the form.</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="cta-item"><img src="./assets/img/bun.png" width="795" 
+                                sizes="(max-width: 767px) 440px, (max-width: 991px) 230px, 55vw" alt="" class="image-9">
+                        </div>-->
+                        <!--<div class="cta-item"><img src="./assets/img/237-2372549_half-body-waistcoat.png" width="284" 
+                            sizes="(max-width: 767px) 440px, (max-width: 991px) 230px, 55vw" alt="" class="image-9">
+                        </div>-->
                     </div>
                 </div>
             </div>
@@ -309,6 +334,8 @@
                     <li><a href="./pricing-new.html">Pricing</a></li>
                     <li><a href="./categories/category-most-popular.html">Most Popular</a></li>
                     <li><a href="#">Free</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">My Learning</a></li>
                     </ul>
                 </div>
 

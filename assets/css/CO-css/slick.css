@@ -131,7 +131,7 @@
     box-shadow: 0 22px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .big-heading{
-    font-family: Reckless, sans-serif;
+    font-family: Graphik, sans-serif;
     font-size: 72px;line-height: 79px;
     font-weight: 300;letter-spacing: normal;
 }
@@ -168,10 +168,10 @@
     color: #1b2f49;
     padding: 8px 8px;
     text-decoration: none;
-    font-family: 'Basis grotesque pro', sans-serif;
+    font-family: 'Graphik', sans-serif;
     display: block;
-    font-size: 22px;
-    font-weight: 50;
+    font-size: 18px;
+    font-weight: 100;
     position: relative;
   }
   
@@ -194,9 +194,26 @@
     padding: 0;
     margin: 0;
 }
+
+.btnsub{
+    padding: 3px 12px;
+    background-color: #1b2f49;
+    color: #ffffff;
+    
+}
+
+.linkin{
+    color: #1b2f49;
+}
+
+.linkin:hover{
+    text-decoration: none;
+}
 /*Chevron right style*/
 
 /*Colors
+    #1b2f49-->Learn more buttin and present search button color
     #c8e3d8-->Old search button hover
     #21cd9c-->Old search button colour
+    #a64bf4 --> Login page old purp
     #f4f8fa--> New hero wrapper and search button colour*/

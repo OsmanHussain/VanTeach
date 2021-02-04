@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>VanTeach|Browse courses</title>
- 
+    <link rel="icon" type="image/png" href="./assets/img/vanTeach-circle.png"/>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -22,7 +22,7 @@
                 <img src="https://assets-global.website-files.com/5d9373c8dbd2df27409ba653/5f7f320f58342a442ef1acc8_Teachable_Discover_SlateBlack.svg" loading="lazy" alt="">
             </a>-->
             <a href="./index.html">
-                <img style="width: 195px ; height: 85px; margin-left: -15px ; margin-top: 1px;" src="./assets/img/final-logo-header-c.png">
+                <img style="width: 240px ; height: 110px; margin-left: -17px ; margin-top: -13px;" src="./assets/img/final-logo-header-c.png">
             </a>
             <div class="discover-navbar-wrapper">
                 <div data-w-id="5d8468ff-caf7-d8e2-56be-c2c1c34cf1b3" class="discover-navbar-toggle">
@@ -34,7 +34,7 @@
                 <a href="features.html" class="discover-navbar-link w-inline-block">
                     <div class="discover-navbar-link-text">Features</div>
                 </a>-->
-                <a href="pricing-new.html" class="discover-navbar-link w-inline-block">
+                <a href="pricing-new.html" class="discover-navbar-link w-inline-block linkin">
                     <div class="discover-navbar-link-text">Pricing</div>
                 </a>
             </div>
@@ -42,10 +42,8 @@
                 <div class="dropdown">
                     <div class="fa fa-user-o dropbtn" aria-hidden="true" style="font-size: 40px; color: rgb(70, 68, 68); font-weight: 40;">
                         <div class="dropdown-content">
+                            <a href="#">My Account</a>
                             <a href="./profile-page.html">My Learning</a>
-                            <a href="#">My Subscription</a>
-                            <a href="#">Change password</a>
-                            <a href="#">Help</a>
                             <a href="#">Logout</a>
                         </div>
                     </div>
@@ -101,16 +99,16 @@
                 <div class="hero-content-wrapper">
                     <div class="div-block-83">
                         <form action="/search" class="search-3 w-form">
-                            <div class="div-block-99"><input type="search" class="form-input-suggestions w-input" maxlength="256" name="query" placeholder="E.g.  Marketing, Fitness, Food" id="search-2" required=""></div>
+                            <div class="div-block-99"><input type="search" class="form-input-suggestions w-input" maxlength="256" name="query" placeholder="E.g.  Marketing, Sports, Careers" id="search-2" required=""></div>
                             <div><input type="submit" value="Search" class="btn-green w-button"></div>
                         </form>
                         <div class="form-input-categories">
                             <div class="text-block-70">Suggestions:</div>
                             <div class="div-block-97">
-                                <div class="input-suggestions">Sports</div>
-                                <div class="input-suggestions">Marketing</div>
-                                <div class="input-suggestions">Fashion</div>
-                                <div class="input-suggestions">Food</div>
+                                <div class="input-suggestions"><a class="linkin" href="./categories/category-most-popular.html">Sports</a></div>
+                                <div class="input-suggestions"><a class="linkin" href="./categories/category-most-popular.html">Marketing</a></div>
+                                <div class="input-suggestions"><a class="linkin" href="./categories/category-most-popular.html">Fashion</a></div>
+                                <div class="input-suggestions"><a class="linkin" href="./categories/category-most-popular.html">Business</a></div>
                             </div>
                         </div>
                     </div>
@@ -161,8 +159,9 @@
                                         <button type="button;" onclick="window.location.href='./categories/co-out-fashion-marketing.html';" class="btnn btnnlm">Learn more</button>
                                         <div class="div-block-73">
                                             <div class="price-wrapper-block">
-                                                <p class="dollar">$</p>
-                                                <p class="dollar">7.95</p>
+                                                <!--<p class="dollar">$</p>
+                                                <p class="dollar">7.95</p>-->
+                                                <button type="button;" onclick="window.location.href='./pricing-new.html';" class="btnsub">Basic</button>
                                             </div>
                                             <!--Strikethrough cost for discount(redacted)
                                             <div class="price-wrapper-block">
@@ -204,14 +203,8 @@
                                         <button type="button;" onclick="window.location.href='./categories/co-out-fashion-marketing.html';" class="btnn btnnlm">Learn more</button>
                                         <div class="div-block-73">
                                             <div class="price-wrapper-block">
-                                                <p class="dollar">$</p>
-                                                <p class="dollar">7.95</p>
+                                                <button type="button;" onclick="window.location.href='./pricing-new.html';" class="btnsub">Free</button>
                                             </div>
-                                            <!--Strikethrough cost for discount(redacted)
-                                            <div class="price-wrapper-block">
-                                                <div class="text-block-60">$</div>
-                                                <div class="text-block-60">10</div>
-                                            </div>-->
                                         </div>
                                     </div>
                                 </div>
@@ -246,8 +239,7 @@
                                         <button type="button;" onclick="window.location.href='./categories/co-out-fashion-marketing.html';" class="btnn btnnlm">Learn more</button>
                                         <div class="div-block-73">
                                             <div class="price-wrapper-block">
-                                                <p class="dollar">$</p>
-                                                <p class="dollar">7.95</p>
+                                                <button type="button;" onclick="window.location.href='./pricing-new.html';" class="btnsub">Basic</button>
                                             </div>
                                             <!--Strikethrough cost for discount(redacted)
                                             <div class="price-wrapper-block">
@@ -307,8 +299,7 @@
                                         <button type="button;" onclick="window.location.href='./categories/co-out-fashion-marketing.html';" class="btnn btnnlm">Learn more</button>
                                         <div class="div-block-73">
                                             <div class="price-wrapper-block">
-                                                <p class="dollar">$</p>
-                                                <p class="dollar">7.95</p>
+                                                <button type="button;" onclick="window.location.href='./pricing-new.html';" class="btnsub">Basic</button>
                                             </div>
                                             <!--Strikethrough cost for discount(redacted)
                                             <div class="price-wrapper-block">
@@ -349,8 +340,7 @@
                                         <button type="button;" onclick="window.location.href='./categories/co-out-fashion-marketing.html';" class="btnn btnnlm">Learn more</button>
                                         <div class="div-block-73">
                                             <div class="price-wrapper-block">
-                                                <p class="dollar">$</p>
-                                                <p class="dollar">7.95</p>
+                                                <button type="button;" onclick="window.location.href='./pricing-new.html';" class="btnsub">Basic</button>
                                             </div>
                                             <!--For Indian Currency (Redacted)
                                             <div class="price-wrapper-block">
@@ -414,8 +404,7 @@
                                         <button type="button;" onclick="window.location.href='./categories/co-out-fashion-marketing.html';" class="btnn btnnlm">Learn more</button>
                                         <div class="div-block-73">
                                             <div class="price-wrapper-block">
-                                                <p class="dollar">$</p>
-                                                <p class="dollar">7.95</p>
+                                                <button type="button;" onclick="window.location.href='./pricing-new.html';" class="btnsub">Basic</button>
                                             </div>
                                             <!--Strikethrough cost for discount(redacted)
                                             <div class="price-wrapper-block">
@@ -456,8 +445,7 @@
                                         <button type="button;" onclick="window.location.href='./categories/co-out-fashion-marketing.html';" class="btnn btnnlm">Learn more</button>
                                         <div class="div-block-73">
                                             <div class="price-wrapper-block">
-                                                <p class="dollar">$</p>
-                                                <p class="dollar">7.95</p>
+                                                <button type="button;" onclick="window.location.href='./pricing-new.html';" class="btnsub">Basic</button>
                                             </div>
                                             <!--Strikethrough cost for discount(redacted)
                                             <div class="price-wrapper-block">
@@ -479,10 +467,10 @@
         <div class="cta-wrapper">
             <div class="container cta-flex">
                 <div class="cta-item-small">
-                    <h1 class="cta-h1">Get Free&nbsp;Courses Weekly!</h1>
-                    <p class="paragraph-14">Enter your email address below to receive a new free courses every week.<br></p>
+                    <h1 class="cta-h1">Keep up to date with the latest courses</h1>
+                    <p class="paragraph-14">Enter your email address below to get the latest news on our courses.<br></p>
                     <div id="cta-form" class="w-form">
-                        <form id="wf-form-Email-Form-1" name="wf-form-Email-Form-1" data-name="Email Form 1" redirect="/courses/free-courses" data-redirect="/courses/free-courses" class="form"><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Your email address" id="email-2" required=""><input type="submit" value="Get Free Courses" data-wait="Please wait..."
+                        <form id="wf-form-Email-Form-1" name="wf-form-Email-Form-1" data-name="Email Form 1" redirect="/courses/free-courses" data-redirect="/courses/free-courses" class="form"><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Your email address" id="email-2" required=""><input type="submit" value="Sign up" data-wait="Please wait..."
                                 class="btn-submit subscribe-form-cta-embedded w-button"></form>
                         <div class="success-message-2 w-form-done">
                             <div>Your discount code:<br><strong>DISCOVER2XK9E1</strong></div>
@@ -492,9 +480,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="cta-item"><img src="./assets/img/bun.png" width="795" 
+                <!--<div class="cta-item"><img src="./assets/img/bun.png" width="795" 
                         sizes="(max-width: 767px) 440px, (max-width: 991px) 230px, 55vw" alt="" class="image-9">
-                </div>
+                </div>-->
                 <!--<div class="cta-item"><img src="./assets/img/237-2372549_half-body-waistcoat.png" width="284" 
                     sizes="(max-width: 767px) 440px, (max-width: 991px) 230px, 55vw" alt="" class="image-9">
                 </div>-->
@@ -515,10 +503,12 @@
                             Easily create an online course or coaching business with our powerful yet simple all-in-one platform.
                         </p>-->
                         <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            
+                            <!--<a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>-->
                             <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             <a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -526,10 +516,11 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Explore</h4>
                     <ul>
-                    <li><a href="./index.html">Home</a></li>
                     <li><a href="./pricing-new.html">Pricing</a></li>
                     <li><a href="./categories/category-most-popular.html">Most Popular</a></li>
                     <li><a href="#">Free</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">My Learning</a></li>
                     </ul>
                 </div>
 
@@ -547,6 +538,7 @@
                 <div class="col-lg-4 col-md-6 footer-links">
 
                     <ul>
+                    <li>&nbsp;</li>
                     <li><a href="#">Lifestyle &amp; Hobbies</a></li>
                     <li><a href="#">Writing</a></li>
                     <li><a href="#">Productivity</a></li>
