@@ -180,7 +180,7 @@ button {
 }
 
 button:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 iframe {
@@ -242,10 +242,19 @@ iframe {
   overflow: hidden;
   padding-left: 55px;
   padding-right: 55px;
-  padding-top: 65px;
-  padding-bottom: 64px;
+  padding-top: 35px;
+  padding-bottom: 54px;
 }
-
+.wrap-signup100{
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 35px;
+  padding-bottom: 44px;
+}
 
 /*------------------------------------------------------------------
 [ Form ]*/
@@ -376,19 +385,21 @@ iframe {
 }
 
 .wrap-login100-form-btn {
-  width: 100%;
+  width: 70%;
   display: block;
   position: relative;
   z-index: 1;
-  border-radius: 25px;
+  border-radius: 0px;
   overflow: hidden;
   margin: 0 auto;
 
-  box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);
+  
   /*-moz-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
   -webkit-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
   -o-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
-  -ms-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);*/
+  -ms-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+  box-shadow: 0 5px 30px 0px rgba(0, 0, 0, 0.2);#1b2f49
+  */
 }
 
 .login100-form-bgbtn {
@@ -396,7 +407,7 @@ iframe {
   z-index: -1;
   width: 300%;
   height: 100%;
-  background: #1b2f49;
+  
   /*background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
   background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
   background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
@@ -413,10 +424,10 @@ iframe {
 .login100-form-btn {
   font-family: Graphik;
   font-size: 16px;
-  color: #fff;
+  color: black;
   line-height: 1.2;
   text-transform: uppercase;
-
+  border: 2px solid #1b2f49;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -429,9 +440,16 @@ iframe {
   height: 50px;
 }
 
-.wrap-login100-form-btn:hover .login100-form-bgbtn {
-  left: 0;
+.login100-form-btn:hover{
+  background-color: #1b2f49;
+  color: white;
+  box-shadow: 0 22px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+/*.wrap-login100-form-btn:hover .login100-form-bgbtn {
+  left: 0;
+  background: #1b2f49;
+  color: #fff;
+}*/
 
 
 /*------------------------------------------------------------------
