@@ -209,6 +209,20 @@
 .linkin:hover{
     text-decoration: none;
 }
+
+/*New edits*/
+
+.txt-account{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.sub-txt-account{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
 /*Chevron right style*/
 
 /*Colors
